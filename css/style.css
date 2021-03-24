@@ -258,7 +258,6 @@ body {
   display: grid;
   position: relative;
   min-height: 50px;
-  /*margin-bottom: 10px;*/
 }
 
 .social .wrapper {
@@ -432,9 +431,6 @@ input:checked ~ a {
 }
 
 #projects p {
-  /*position: relative;*/
-  margin: auto;
-  font-size: 3.5vw;
   text-align: center;
   color: #3f8efc;
   text-shadow: 2px 2px 2px #48a2ff, -2px -2px 2px #367ad9;
@@ -734,6 +730,11 @@ input:checked ~ a {
   .image img {
     margin: auto;
     width: 90vw;
+  }
+
+  .certifications h1 {
+    color: red;
+    font-family: digital;
   }
 
   .myTitle {
